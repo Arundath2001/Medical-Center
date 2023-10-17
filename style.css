@@ -1,0 +1,484 @@
+.container{
+    position: relative;
+}
+.med-banner{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: block;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.med-banner__head{
+    color: rgb(56, 55, 55);
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: "oswald";
+}
+
+.med-banner__link{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 10px 16px;
+}
+.med-banner__link1{
+    text-decoration: none;
+    color: rgb(2, 110, 146);
+}
+.med-banner__link:hover{
+    background-color: lightgray
+}
+.med-banner__title{
+    padding-left: 200px;
+    width: 500px;
+    padding-top: 300px;
+}
+.med-banner__slide{
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 130px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.med-banner__slide123{
+    width: 25%;
+    height: 400px;
+    display: inline-block;
+}
+.med-banner__slide1{
+
+    background-color: lightgray;
+
+}
+.med-banner__slide2{
+
+    background-color: grey;
+    
+}
+.med-banner__slide3{
+    background-color: rgb(71, 83, 96);
+}
+.med-banner__slide123:hover{
+    background-color: lightblue;
+    transition: .7s;
+    transform: scale(.9);
+}
+svg{
+font-size: 100px;
+fill: white;
+
+}
+.med-banner__slide123{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+.med-banner__head2{
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+.med-banner__para{
+    font-size: 20px;
+    margin: 15px 15px;
+    
+}
+
+@media screen and (max-width:768px) {
+    .med-banner{
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+    .med-banner__title{
+        width:300px;
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+    .med-banner__slide {
+    margin: 20px 20px;        
+    display: flex;
+    flex-direction: column;
+    }
+    .med-banner__slide123{
+        width: 100%;
+        min-height: 420px;
+    }
+}
+.med-about{
+    margin-top: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.med-about__para1{
+    display: inline-block;
+    width: 500px;
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.med-about__title{
+    text-align: center;
+}
+.med-about__head1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+}
+.med-about__cont{
+    display: inline-flex;
+}
+h1,h4,h2,p{
+    font-family: "oswald";
+}
+.med-about__cont2{
+    margin-top: 100px;
+}
+@media screen and (max-width:768px) {
+    .med-about{
+        width: 100%;
+        margin-top: 1300px;
+        position: absolute;
+        margin-left: 0;
+        padding: 0;
+        
+ 
+    }
+    .med-about__para1{
+        width: 80%;
+    }
+    .med-about__cont{
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .med-about__img{
+        width:360px;
+        height: 340px;
+        
+    }
+}
+.med-about__icon{
+    fill: lightblue;
+}
+.med-about__cont{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.med-about__cont1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.med-about__left{
+    margin-left: 20px;
+    width: 50%;
+}
+.med-about__head2{
+    text-transform: uppercase;
+}
+
+
+.med-about__img:hover{
+    transition: .5s;
+    transform: scale(.7);
+}
+.med-dep{
+    background-color: lightslategrey;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.med-dep{
+    text-align: center;
+}
+.med-dep__cont1{
+    padding-top: 50px;
+}
+.med-dep__head{
+    text-transform: uppercase;
+    color: white;
+    font-family: "oswald";
+    font-weight: lighter;
+    
+}
+.med-dep__para{
+    color: white;
+    font-size: small;
+}
+@media screen and (max-width:768px) {
+    .med-dep{
+        width: 100%;
+        margin-top: 2900px;
+        height: 100%;
+        position: relative;
+    }
+    .med-dep__cont1{
+        display: flex;
+        flex-direction: column;
+    }
+    .med-dep__cont2{
+        width: 100%;
+        flex-direction: column;               
+    }
+}
+.med-dep__slide123{
+    margin-top: 80px;
+    margin-inline: 50px;
+    font-family: "oswald";
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+
+}
+.med-dep__cont2{
+    display: inline-flex;
+}
+.med-care{
+    display: inline-flex;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.med-care__cont{
+    text-align: start;
+    margin-left: 30px;
+   
+}
+.med-care__head{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px) {
+    .med-care{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .med-care__img{
+        width: 340px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .med-care__cont{
+        margin-top: 30px;
+    }
+    
+}
+.med-we{
+    background-color: rgb(198, 223, 232);
+}
+.med-we__titlle{
+    text-align: center;
+    color: black;
+
+}
+.med-we__para1{
+    justify-content: center;
+}
+.med-we__head1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.med-we__slide{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 150px;
+}
+.med-we__slide123{
+    margin-inline: 30px;
+    background-color: white;
+    justify-content: center;
+
+}
+.med-we__img{
+    
+    height: 200px;
+}
+.med-we__link{
+    text-decoration: none;
+    color: rgb(30, 149, 188);
+    text-transform: uppercase;
+}
+.med-we__head2{
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px) {
+    .med-we__slide{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .med-we__img{
+        width: 200px;
+    }
+    
+}
+.med-gl{
+    background-image: url(./images/world.png);
+    height: 400px;
+}
+.med-gl__title{
+    text-align: center;
+    margin: 80px;
+    color: white;
+    padding-top: 100px;
+}
+.med-gl__head{
+    font-size: 60px;
+    font-family: "oswald";
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px) {
+    .med-gl__title{
+        text-align: center;
+        padding-top: 0;
+    }
+}
+.med-spe__head{
+    font-size: 40px;
+    font-family: "oswald";
+    text-transform: uppercase;
+}
+.med-spe__title{
+    text-align: center;
+}
+
+.med-spe__para1{
+    justify-content: center;
+}
+.med-spe__head1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.med-spe__slide{
+    display: inline-flex;
+    width: 80%;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.med-spe__slide123{
+    margin-inline: 30px;
+    background-color: white;
+    justify-content: center;
+
+}
+.med-spe__img{
+    
+    height: 200px;
+}
+
+.med-spe__head2{
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px) {
+    .med-spe__slide{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .med-spe__img{
+        width: 150px;
+    }
+    
+}
+.med-spe__color{
+    background-color: lightgray;
+    margin: 5px 5px 5px 5px;
+}
+.med-get__head{
+    font-style: "oswald";
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+
+}
+.med-get{
+    padding-bottom:  40px;
+}
+.med-get__title{
+    text-align: center;
+    background-color: rgb(136, 131, 131);
+    margin-bottom: 20px;
+}
+.med-get__para{
+    margin-inline: 400px;
+}
+input{
+    background-color: rgb(92, 108, 124);
+    width: 40%;
+    border: 0;
+    height: 30px;
+    margin: 10px;
+}
+textarea{
+    background-color: rgb(92, 108, 124);
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.med-get__link{
+    background-color: rgb(189, 200, 212);
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+
+}
+.med-get__link:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+input:hover{
+    background-color: lightblue;
+    transform: 2s;
+    transform: scale(1);
+}
+textarea:hover{
+    background-color: lightblue;
+    transform: 2s;
+    transform: scale(1);
+}
+@media screen and (max-width:768px) {
+    .med-get__para{
+        margin: 0;
+    }
+    
+}
